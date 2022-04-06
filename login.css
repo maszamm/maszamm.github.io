@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: url(gambar/UHT123.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loginform {
+  width: 300px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 70px 30px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  backdrop-filter: blur;
+}
+
+.loginform img {
+  width: 80px;
+  height: auto;
+  position: absolute;
+  top: -40px;
+  left: calc(50% - 40px);
+  border-radius: 50%;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #fff;
+  font-weight: 500;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input[type='username'],
+input[type='password'] {
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  font-size: 15px;
+  border-bottom: 1px solid #fff;
+}
+
+input[type='submit'] {
+  margin-top: 10px;
+  border: none;
+  outline: 40px;
+  color: #fff;
+  font-size: 18px;
+  background: blue;
+  border-radius: 20px;
+}
+input[type='submit']:hover {
+  cursor: pointer;
+  background: rgb(252, 173, 4);
+  color: black;
+  font-weight: bold;
+}
+
+label {
+  color: white;
+  margin: 10px 0;
+}
